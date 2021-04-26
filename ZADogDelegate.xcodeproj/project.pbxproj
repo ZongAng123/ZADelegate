@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		742CE5562634F4C4008AC59A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 742CE5552634F4C4008AC59A /* AppDelegate.m */; };
-		742CE5592634F4C4008AC59A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 742CE5582634F4C4008AC59A /* SceneDelegate.m */; };
 		742CE55C2634F4C4008AC59A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 742CE55B2634F4C4008AC59A /* ViewController.m */; };
 		742CE55F2634F4C4008AC59A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742CE55D2634F4C4008AC59A /* Main.storyboard */; };
 		742CE5612634F4C7008AC59A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 742CE5602634F4C7008AC59A /* Assets.xcassets */; };
@@ -16,6 +15,8 @@
 		742CE5672634F4C7008AC59A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 742CE5662634F4C7008AC59A /* main.m */; };
 		742CE5712634F4C7008AC59A /* ZADogDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 742CE5702634F4C7008AC59A /* ZADogDelegateTests.m */; };
 		742CE57C2634F4C7008AC59A /* ZADogDelegateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 742CE57B2634F4C7008AC59A /* ZADogDelegateUITests.m */; };
+		742CE5912634F50F008AC59A /* ZADog.m in Sources */ = {isa = PBXBuildFile; fileRef = 742CE5902634F50F008AC59A /* ZADog.m */; };
+		742CE5972634F5D4008AC59A /* ZAPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 742CE5962634F5D4008AC59A /* ZAPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,6 @@
 		742CE5512634F4C4008AC59A /* ZADogDelegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZADogDelegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		742CE5542634F4C4008AC59A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		742CE5552634F4C4008AC59A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		742CE5572634F4C4008AC59A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		742CE5582634F4C4008AC59A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		742CE55A2634F4C4008AC59A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		742CE55B2634F4C4008AC59A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		742CE55E2634F4C4008AC59A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +53,10 @@
 		742CE5772634F4C7008AC59A /* ZADogDelegateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZADogDelegateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		742CE57B2634F4C7008AC59A /* ZADogDelegateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZADogDelegateUITests.m; sourceTree = "<group>"; };
 		742CE57D2634F4C7008AC59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		742CE58F2634F50F008AC59A /* ZADog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZADog.h; sourceTree = "<group>"; };
+		742CE5902634F50F008AC59A /* ZADog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZADog.m; sourceTree = "<group>"; };
+		742CE5952634F5D4008AC59A /* ZAPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZAPerson.h; sourceTree = "<group>"; };
+		742CE5962634F5D4008AC59A /* ZAPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +109,12 @@
 			children = (
 				742CE5542634F4C4008AC59A /* AppDelegate.h */,
 				742CE5552634F4C4008AC59A /* AppDelegate.m */,
-				742CE5572634F4C4008AC59A /* SceneDelegate.h */,
-				742CE5582634F4C4008AC59A /* SceneDelegate.m */,
 				742CE55A2634F4C4008AC59A /* ViewController.h */,
 				742CE55B2634F4C4008AC59A /* ViewController.m */,
+				742CE58F2634F50F008AC59A /* ZADog.h */,
+				742CE5902634F50F008AC59A /* ZADog.m */,
+				742CE5952634F5D4008AC59A /* ZAPerson.h */,
+				742CE5962634F5D4008AC59A /* ZAPerson.m */,
 				742CE55D2634F4C4008AC59A /* Main.storyboard */,
 				742CE5602634F4C7008AC59A /* Assets.xcassets */,
 				742CE5622634F4C7008AC59A /* LaunchScreen.storyboard */,
@@ -267,9 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				742CE55C2634F4C4008AC59A /* ViewController.m in Sources */,
+				742CE5972634F5D4008AC59A /* ZAPerson.m in Sources */,
 				742CE5562634F4C4008AC59A /* AppDelegate.m in Sources */,
 				742CE5672634F4C7008AC59A /* main.m in Sources */,
-				742CE5592634F4C4008AC59A /* SceneDelegate.m in Sources */,
+				742CE5912634F50F008AC59A /* ZADog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +450,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D8J962WWSV;
 				INFOPLIST_FILE = ZADogDelegate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +469,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D8J962WWSV;
 				INFOPLIST_FILE = ZADogDelegate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
